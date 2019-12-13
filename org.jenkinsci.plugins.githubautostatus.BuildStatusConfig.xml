@@ -1,0 +1,22 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<org.jenkinsci.plugins.githubautostatus.BuildStatusConfig plugin="github-autostatus@3.6.0">
+  <credentialsId></credentialsId>
+  <influxDbUrl></influxDbUrl>
+  <influxDbDatabase></influxDbDatabase>
+  <ignoreSendingTestCoverageToInflux>false</ignoreSendingTestCoverageToInflux>
+  <ignoreSendingTestResultsToInflux>true</ignoreSendingTestResultsToInflux>
+  <influxDbRetentionPolicy></influxDbRetentionPolicy>
+  <enableInfluxDb>false</enableInfluxDb>
+  <disableGithub>false</disableGithub>
+  <enableStatsd>false</enableStatsd>
+  <statsdHost></statsdHost>
+  <statsdPort>8125</statsdPort>
+  <statsdBucket></statsdBucket>
+  <statsdMaxSize>1400</statsdMaxSize>
+  <enableHttp>false</enableHttp>
+  <httpEndpoint></httpEndpoint>
+  <httpCredentialsId></httpCredentialsId>
+  <httpVerifySSL>false</httpVerifySSL>
+  <dbVersion>2</dbVersion>
+  <configVersion>2</configVersion>
+</org.jenkinsci.plugins.githubautostatus.BuildStatusConfig>

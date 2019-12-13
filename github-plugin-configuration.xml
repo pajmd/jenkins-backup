@@ -1,0 +1,15 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<github-plugin-configuration plugin="github@1.29.5">
+  <configs>
+    <github-server-config>
+      <name>My only github</name>
+      <apiUrl>https://api.github.com</apiUrl>
+      <manageHooks>true</manageHooks>
+      <credentialsId>f258d6ea-2d5c-4223-94b7-6598f0220148</credentialsId>
+      <clientCacheSize>20</clientCacheSize>
+    </github-server-config>
+  </configs>
+  <hookSecretConfig>
+    <credentialsId></credentialsId>
+  </hookSecretConfig>
+</github-plugin-configuration>

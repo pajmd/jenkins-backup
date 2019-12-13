@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<org.jenkinsci.plugins.gwt.global.Whitelist plugin="generic-webhook-trigger@1.66">
+  <enabled>true</enabled>
+  <whitelistItems>
+    <org.jenkinsci.plugins.gwt.global.WhitelistItem>
+      <host></host>
+      <hmacEnabled>false</hmacEnabled>
+      <hmacHeader></hmacHeader>
+      <hmacCredentialId></hmacCredentialId>
+      <hmacAlgorithm>HmacSHA256</hmacAlgorithm>
+    </org.jenkinsci.plugins.gwt.global.WhitelistItem>
+  </whitelistItems>
+</org.jenkinsci.plugins.gwt.global.Whitelist>
